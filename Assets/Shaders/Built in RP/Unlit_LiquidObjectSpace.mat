@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_LiquidObjectSpace
+  m_Shader: {fileID: 4800000, guid: 82387c67910095a47825551c9a87065d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CosmosTexture:
+        m_Texture: {fileID: 2800000, guid: f53236b23fad6c84ebeef276338b39aa, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b0d23663022354b40b420a8b62a4cc80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 0}
+    - _ParallaxDisplacement:
+        m_Texture: {fileID: 2800000, guid: b0d23663022354b40b420a8b62a4cc80, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 1.25, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DisplacementAmount: 2.64
+    - _DisplacementVelX: 0.1
+    - _DisplacementVelY: 0
+    - _Fill: 0.535
+    - _FillTurbulence: 3
+    - _FoamFallOff: 10
+    - _FoamThickness: 0.05
+    m_Colors:
+    - _BoundingBox: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamColor: {r: 0.6567283, g: 0.7991135, b: 0.8867924, a: 1}
+  m_BuildTextureStacks: []
